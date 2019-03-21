@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('categorias', 'Categorias');
+Route::resource('estados', 'EstadosActividad');
+Route::resource('actividades', 'Actividades');
