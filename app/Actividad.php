@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Actividades extends Model
+class Actividad extends Model
 {
-  protected $table = "Actividades";
+  protected $table = "Actividad";
 
   protected $fillable =
   [

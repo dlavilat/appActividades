@@ -13,4 +13,8 @@ class Categorias extends Model
     public function actividades(){
       return $this->hasMany('App\Actividades');
     }
+
+    /*public function listarCategorias(){
+      return $this>belongsTo('App\Categorias','id');
+    }*/
 }
